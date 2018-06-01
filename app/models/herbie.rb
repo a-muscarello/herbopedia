@@ -1,0 +1,2 @@
+class Herbie < ApplicationRecord
+end
