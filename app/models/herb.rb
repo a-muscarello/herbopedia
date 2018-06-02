@@ -1,2 +1,3 @@
 class Herb < ApplicationRecord
+    
 end
