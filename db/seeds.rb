@@ -29,3 +29,7 @@ Posts.create(user_id: 3, title: "Lovage", description: "Levisticum officinale", 
 Posts.create(user_id: 1, title: "Poppy", description: "Papaver rhoeas", info_sheet: "The poppy is known to soothe coughs and induce sleep. The petals are helpful in treating asthma, bronchitis, whooping cough and angina.", image: "/assets/images/lovage.jpg")
 Posts.create(user_id: 2, title: "Yarrow", description: "Achillea millefolium", info_sheet: "Yarrow is used topically for wounds, cuts, and abrasions. An infusion of yarrow is known to speed recovery from sever bruising. Yarrow flowers are used for various allergic mucus problems, including hay fever.", image: "/assets/images/lovage.jpg")
 Posts.create(user_id: 3, title: "Foxglove", description: "Digitalis purpurea", info_sheet: "A pure form of the plant is used to strengthen cardiac contractility and regulates heart rhythm.", image: "/assets/images/lovage.jpg")
+
+User.create(email: "lori@email.com", password: "test123")
+User.create(email: "tom@email.com", password: "test123")
+User.create(email: "carly@email.com", password: "test123")
