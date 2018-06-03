@@ -15,6 +15,7 @@ class HerbsController < ApplicationController
   # GET /herbs/new
   def new
     @herb = Herb.new
+    # redirect_to '/herbs/new'
   end
 
   # GET /herbs/1/edit

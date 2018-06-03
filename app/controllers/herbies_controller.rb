@@ -1,5 +1,5 @@
 class HerbiesController < ApplicationController
-  before_action :set_herby, only: [:show, :edit, :update, :destroy]
+  before_action :set_herbie, only: [:show, :edit, :update, :destroy]
 
   # GET /herbies
   # GET /herbies.json
@@ -14,7 +14,7 @@ class HerbiesController < ApplicationController
 
   # GET /herbies/new
   def new
-    @herby = Herbie.new
+    @herbie = Herbie.new
   end
 
   # GET /herbies/1/edit
@@ -24,15 +24,15 @@ class HerbiesController < ApplicationController
   # POST /herbies
   # POST /herbies.json
   def create
-    @herby = Herbie.new(herby_params)
+    @herbie = Herbie.new(herbie_params)
 
     respond_to do |format|
-      if @herby.save
-        format.html { redirect_to @herby, notice: 'Herbie was successfully created.' }
-        format.json { render :show, status: :created, location: @herby }
+      if @herbie.save
+        format.html { redirect_to @herbie, notice: 'Herbie was successfully created.' }
+        format.json { render :show, status: :created, location: @herbie }
       else
         format.html { render :new }
-        format.json { render json: @herby.errors, status: :unprocessable_entity }
+        format.json { render json: @herbie.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -41,12 +41,12 @@ class HerbiesController < ApplicationController
   # PATCH/PUT /herbies/1.json
   def update
     respond_to do |format|
-      if @herby.update(herby_params)
-        format.html { redirect_to @herby, notice: 'Herbie was successfully updated.' }
-        format.json { render :show, status: :ok, location: @herby }
+      if @herbie.update(herbie_params)
+        format.html { redirect_to @herbie, notice: 'Herbie was successfully updated.' }
+        format.json { render :show, status: :ok, location: @herbie }
       else
         format.html { render :edit }
-        format.json { render json: @herby.errors, status: :unprocessable_entity }
+        format.json { render json: @herbie.errors, status: :unprocessable_entity }
       end
     end
   end
@@ -54,7 +54,7 @@ class HerbiesController < ApplicationController
   # DELETE /herbies/1
   # DELETE /herbies/1.json
   def destroy
-    @herby.destroy
+    @herbie.destroy
     respond_to do |format|
       format.html { redirect_to herbies_url, notice: 'Herbie was successfully destroyed.' }
       format.json { head :no_content }
@@ -63,12 +63,12 @@ class HerbiesController < ApplicationController
 
   private
     # Use callbacks to share common setup or constraints between actions.
-    def set_herby
-      @herby = Herbie.find(params[:id])
+    def set_herbie
+      @herbie = herbie.find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
-    def herby_params
-      params.require(:herby).permit(:user_name, :user_id)
+    def herbie_params
+      params.require(:herbie).permit(:user_name, :user_id)
     end
 end
