@@ -72,3 +72,4 @@ class HerbsController < ApplicationController
       params.require(:herb).permit(:user_id)
     end
 end
+
