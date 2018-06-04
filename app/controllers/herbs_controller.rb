@@ -69,7 +69,7 @@ class HerbsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def herb_params
-      params.require(:herb).permit(:user_id)
+      params.require(:herb).permit(:user_id, :title, :description, :info_sheet, :image)
     end
 end
 

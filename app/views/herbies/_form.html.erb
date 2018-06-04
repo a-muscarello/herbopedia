@@ -1,10 +1,11 @@
-<%= form_with(model: herby, local: true) do |form| %>
-  <% if herby.errors.any? %>
+
+<%= form_with(model: herbie, local: true) do |form| %>
+  <% if herbie.errors.any? %>
     <div id="error_explanation">
-      <h2><%= pluralize(herby.errors.count, "error") %> prohibited this herby from being saved:</h2>
+      <h2><%= pluralize(herbie.errors.count, "error") %> prohibited this herbie from being saved:</h2>
 
       <ul>
-      <% herby.errors.full_messages.each do |message| %>
+      <% herbie.errors.full_messages.each do |message| %>
         <li><%= message %></li>
       <% end %>
       </ul>
@@ -19,6 +20,16 @@
   <div class="field">
     <%= form.label :user_id %>
     <%= form.number_field :user_id %>
+  </div>
+
+  <div class="field">
+    <%= form.label :title %>
+    <%= form.text_field :title %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description %>
+    <%= form.text_area :description %>
   </div>
 
   <div class="actions">

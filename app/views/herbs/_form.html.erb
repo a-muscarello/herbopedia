@@ -17,6 +17,27 @@
     <%= form.number_field :user_id %>
   </div>
 
+  <div class="field">
+    <%= form.label :title %>
+    <%= form.text_field :title %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description %>
+    <%= form.text_field :description %>
+  </div>
+
+  <div class="field">
+    <%= form.label :info_sheet %>
+    <%= form.text_area :info_sheet %>
+  </div>
+
+  <div class="field">
+    <%= form.label :image %>
+    <%= form.file_field :image, id: :post_image%>
+  </div>
+
+
   <div class="actions">
     <%= form.submit %>
   </div>

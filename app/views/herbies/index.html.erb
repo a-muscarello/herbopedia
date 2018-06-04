@@ -12,13 +12,13 @@
   </thead>
 
   <tbody>
-    <% @herbies.each do |herby| %>
+    <% @herbies.each do |herbie| %>
       <tr>
-        <td><%= herby.user_name %></td>
-        <td><%= herby.user_id %></td>
-        <td><%= link_to 'Show', herby %></td>
-        <td><%= link_to 'Edit', edit_herby_path(herby) %></td>
-        <td><%= link_to 'Destroy', herby, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= herbie.user_name %></td>
+        <td><%= herbie.user_id %></td>
+        <td><%= link_to 'Show', herbie %></td>
+        <td><%= link_to 'Edit', edit_herbie_path(herbie) %></td>
+        <td><%= link_to 'Destroy', herbie, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -26,4 +26,4 @@
 
 <br>
 
-<%= link_to 'New Herby', new_herby_path %>
+<%= link_to 'New Herbie', new_herbie_path %>
