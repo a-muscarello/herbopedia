@@ -28,7 +28,7 @@ class HerbiesController < ApplicationController
 
     respond_to do |format|
       if @herbie.save
-        format.html { redirect_to @herbie, notice: 'Herbie was successfully created.' }
+        format.html { redirect_to @herbie, notice: 'News was successfully created.' }
         format.json { render :show, status: :created, location: @herbie }
       else
         format.html { render :new }
@@ -42,7 +42,7 @@ class HerbiesController < ApplicationController
   def update
     respond_to do |format|
       if @herbie.update(herbie_params)
-        format.html { redirect_to @herbie, notice: 'Herbie was successfully updated.' }
+        format.html { redirect_to @herbie, notice: 'News was successfully updated.' }
         format.json { render :show, status: :ok, location: @herbie }
       else
         format.html { render :edit }
@@ -64,11 +64,11 @@ class HerbiesController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_herbie
-      @herbie = herbie.find(params[:id])
+      @herbie = Herbie.find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def herbie_params
-      params.require(:herbie).permit(:user_name, :user_id)
+      params.require(:herbie).permit(:user_name, :user_id, :title, :description)
     end
 end

@@ -1,13 +1,24 @@
 
 <p>
   <strong>User name:</strong>
-  <%= @herby.user_name %>
+  <%= @herbie.user_name %>
 </p>
 
 <p>
   <strong>User:</strong>
-  <%= @herby.user_id %>
+  <%= @herbie.user_id %>
 </p>
 
-<%= link_to 'Edit', edit_herby_path(@herby) %> |
+<p>
+  <strong>Title:</strong>
+  <%= @herbie.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @herbie.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_herbie_path(@herbie) %> |
 <%= link_to 'Back', herbies_path %>

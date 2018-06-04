@@ -4,5 +4,25 @@
   <%= @herb.user_id %>
 </p>
 
+<p>
+  <strong>Title:</strong>
+  <%= @herb.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @herb.description %>
+</p>
+
+<p>
+  <strong>Info sheet:</strong>
+  <%= @herb.info_sheet %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= image_tag(@herb.image_url, width: 600) if @herb.image.present? %>
+</p>
+
 <%= link_to 'Edit', edit_herb_path(@herb) %> |
 <%= link_to 'Back', herbs_path %>
