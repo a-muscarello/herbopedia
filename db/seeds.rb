@@ -33,3 +33,24 @@ Post.create(user_id: 3, title: "Foxglove", description: "Digitalis purpurea", in
 User.create(email: "lori@email.com", password: "test123")
 User.create(email: "tom@email.com", password: "test123")
 User.create(email: "carly@email.com", password: "test123")
+
+
+Event.create(title: "Native Plants for Cut Flower Gardening - Regional", date: "June 29, 2018", description: "Kathy Salisbury, Director of the Ambler Arboretum at Temple University and formerly President of the Native Plant Society of NJ returns for an in-depth, practical guide to the best native plants to grow for cut flowers. Learn to cultivate, cut and condition native trees, shrubs and perennials to give you beautiful and natural arrangements all season long. 
+
+THE FRIENDS OF THE FRELINGHUYSEN ARBORETUM 353 EAST HANOVER AVE. MORRIS TOWNSHIP, NJ 07962
+(973) 326-7601")
+
+Event.create(title: "Gardening with Ease - Regional", date: "June 30, 2018", description: "KLandscape Designer and Horticultural Therapist Irene Brady Barber will unveil opportunities and strategies designed to help you get the most out of gardening without hurting your body. She’ll cover many of the tricks, materials, equipment and design strategies that can extend everyone’s enjoyment and ability to garden through physical challenges, long into the years ahead.
+
+COASTAL MAINE BOTANICAL GARDENS 132 BOTANICAL GARDENS DRIVE BOOTHBAY, ME 04537
+(207) 633-8000")
+
+Event.create(title: "Annual Gesneriad Society Convention Flower Show and Plant Sale - Regional", date: "July 03, 2018", description: "The Flower Show and Plant Sale are open free to the public on Friday and Saturday, however registration is required for admittance to Convention talks, meals, planned field trips, and early entry to plant sales. On Friday July 6th, Plant Sales will be open free to the public from 9:00AM to 6:00PM, with the Flower Show open from 2:30 - 6:30PM and 9:15PM-11PM. On Saturday, July 7th, both will be open from 8:30 AM to 3:00PM.
+
+SHERATON HOTEL & CONFERENCE CENTER 1657 WORCESTER RD. FRAMINGHAM, MA 01701
+(978) 697-8016")
+
+Event.create(title: "Bonsai Demonstration and Display - Regional", date: "July 21, 2018", description: "Mark your calendar and come by and discover the magical world of bonsai, watch a demonstration and meet the members of the Cape Cod Bonzai Club.
+
+HIGHFIELD HALL & GARDENS 56 HIGHFIELD DRIVE FALMOUTH, MA 02541
+(508) 495-1878")
