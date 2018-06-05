@@ -1,21 +1,21 @@
-// Place all the styles related to the comments controller here.
+// Place all the styles related to the events controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-.comment_table {
+.event_table {
     border-collapse: collapse;
     width: 70%;
   }
 
-  .comment_table td, .comment_table th {
+  .event_table td, .event_table th {
     border: 1px solid black;
     padding: 8px;
 }
 
-.comment_table tr:hover {background-color: #ddd;}
+.event_table tr:hover {background-color: #ddd;}
 
-.comment_table th {
+.event_table th {
     padding-top: 20px;
     padding-bottom: 12px;
     text-align: left;

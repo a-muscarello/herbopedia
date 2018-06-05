@@ -54,3 +54,44 @@ body {
   .caption {
     text-align: center;
   }
+
+  .event_table {
+    border-collapse: collapse;
+    width: 70%;
+  }
+
+  .event_table td, .event_table th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.event_table tr:hover {background-color: #ddd;}
+
+.event_table th {
+    padding-top: 20px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(184, 223, 185);
+    color: black;
+}
+
+
+.comment_thead {
+  border-collapse: collapse;
+  width: 70%;
+}
+
+.comment_thead td, .comment_thead th {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.comment_thead tr:hover {background-color: #ddd;}
+
+.comment_thead th {
+  padding-top: 20px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(184, 223, 185);
+  color: black;
+}
