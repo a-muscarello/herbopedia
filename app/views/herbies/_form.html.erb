@@ -5,13 +5,14 @@
       <h2><%= pluralize(herbie.errors.count, "error") %> prohibited this herbie from being saved:</h2>
 
       <ul>
-      <% herbie.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
-      <% end %>
+        <% herbie.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
       </ul>
     </div>
   <% end %>
 
+  
   <div class="field">
     <%= form.label :user_name %>
     <%= form.text_field :user_name %>

@@ -1,6 +1,7 @@
 class HerbsController < ApplicationController
   before_action :set_herb, only: [:show, :edit, :update, :destroy]
-
+  before_action :authenticate_user!
+  
   # GET /herbs
   # GET /herbs.json
   def index

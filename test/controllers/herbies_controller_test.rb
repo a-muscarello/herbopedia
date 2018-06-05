@@ -2,7 +2,7 @@ require 'test_helper'
 
 class HerbiesControllerTest < ActionDispatch::IntegrationTest
   setup do
-    @herby = herbies(:one)
+    @herbie = herbies(:one)
   end
 
   test "should get index" do
@@ -11,36 +11,36 @@ class HerbiesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should get new" do
-    get new_herby_url
+    get new_herbie_url
     assert_response :success
   end
 
-  test "should create herby" do
+  test "should create herbie" do
     assert_difference('Herbie.count') do
-      post herbies_url, params: { herby: { user_id: @herby.user_id, user_name: @herby.user_name } }
+      post herbies_url, params: { herbie: { user_id: @herbie.user_id, user_name: @herbie.user_name } }
     end
 
-    assert_redirected_to herby_url(Herbie.last)
+    assert_redirected_to herbie_url(Herbie.last)
   end
 
-  test "should show herby" do
-    get herby_url(@herby)
+  test "should show herbie" do
+    get herbie_url(@herbie)
     assert_response :success
   end
 
   test "should get edit" do
-    get edit_herby_url(@herby)
+    get edit_herbie_url(@herbie)
     assert_response :success
   end
 
-  test "should update herby" do
-    patch herby_url(@herby), params: { herby: { user_id: @herby.user_id, user_name: @herby.user_name } }
-    assert_redirected_to herby_url(@herby)
+  test "should update herbie" do
+    patch herbie_url(@herbie), params: { herbie: { user_id: @herbie.user_id, user_name: @herbie.user_name } }
+    assert_redirected_to herbie_url(@herbie)
   end
 
-  test "should destroy herby" do
+  test "should destroy herbie" do
     assert_difference('Herbie.count', -1) do
-      delete herby_url(@herby)
+      delete herbie_url(@herbie)
     end
 
     assert_redirected_to herbies_url
