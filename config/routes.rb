@@ -2,9 +2,10 @@ Rails.application.routes.draw do
   
 #   root "index#home"
 
-root "pages#info"
+  root "pages#info"
   
   get 'pages/info'
+  
   resources :posts
   resources :comments
   resources :herbies

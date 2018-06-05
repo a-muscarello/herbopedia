@@ -2,7 +2,7 @@ require "application_system_test_case"
 
 class HerbiesTest < ApplicationSystemTestCase
   setup do
-    @herby = herbies(:one)
+    @herbie = herbies(:one)
   end
 
   test "visiting the index" do
@@ -14,8 +14,8 @@ class HerbiesTest < ApplicationSystemTestCase
     visit herbies_url
     click_on "New Herbie"
 
-    fill_in "User", with: @herby.user_id
-    fill_in "User Name", with: @herby.user_name
+    fill_in "User", with: @herbie.user_id
+    fill_in "User Name", with: @herbie.user_name
     click_on "Create Herbie"
 
     assert_text "Herbie was successfully created"
@@ -26,8 +26,8 @@ class HerbiesTest < ApplicationSystemTestCase
     visit herbies_url
     click_on "Edit", match: :first
 
-    fill_in "User", with: @herby.user_id
-    fill_in "User Name", with: @herby.user_name
+    fill_in "User", with: @herbie.user_id
+    fill_in "User Name", with: @herbie.user_name
     click_on "Update Herbie"
 
     assert_text "Herbie was successfully updated"

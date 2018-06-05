@@ -1,5 +1,6 @@
 class HerbiesController < ApplicationController
   before_action :set_herbie, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!
 
   # GET /herbies
   # GET /herbies.json
