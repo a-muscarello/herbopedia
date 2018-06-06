@@ -13,11 +13,7 @@ Create a self-directed learning plan for yourself to hold yourself accountable a
 ### **MVP**
 - Users can sign up for an account.
 - Visitors can view the showcased item but need to create an account if they want to explore further.
-- Signed-in users are able to post message/comments, events and happenings, add a new item.
-
-
-### **Pivot** feature:
-Users will have the ability to rank mentors.
+- Signed-in users are able to add a new item, post/view message/comments, events and happenings.
 
 
 ### **Post** MVP

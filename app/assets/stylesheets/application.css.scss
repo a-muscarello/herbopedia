@@ -26,6 +26,14 @@ body {
   background-repeat: no-repeat;
 }
 
+a {
+  color: #000;
+
+  &:visited {
+    color: rgb(62, 192, 138);
+  }
+}
+
 .img-responsive {
     max-width: 100%;
     max-height: 100%;
@@ -55,40 +63,59 @@ body {
     text-align: center;
   }
 
-  .event_table {
-    border-collapse: collapse;
-    width: 70%;
-  }
+//   .event_table {
+//     border-collapse: collapse;
+//     width: 70%;
+//   }
 
-  .event_table td, .event_table th {
-    border: 1px solid black;
-    padding: 8px;
-}
+//   .event_table td, .event_table th {
+//     border: 1px solid black;
+//     padding: 8px;
+// }
 
-.event_table tr:hover {background-color: #ddd;}
+// .event_table tr:hover {background-color: #ddd;}
 
-.event_table th {
-    padding-top: 20px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: rgb(184, 223, 185);
-    color: black;
-}
+// .event_table th {
+//     padding-top: 20px;
+//     padding-bottom: 12px;
+//     text-align: left;
+//     background-color: rgb(184, 223, 185);
+//     color: black;
+// }
 
-
-.comment_thead {
+.comment_table {
   border-collapse: collapse;
   width: 70%;
 }
 
-.comment_thead td, .comment_thead th {
+.comment_table td, .comment_table th {
   border: 1px solid black;
   padding: 8px;
 }
 
-.comment_thead tr:hover {background-color: #ddd;}
+.comment_table tr:hover {background-color: #ddd;}
 
-.comment_thead th {
+.comment_table th {
+  padding-top: 20px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(184, 223, 185);
+  color: black;
+}
+
+.post_table {
+  border-collapse: collapse;
+  width: 70%;
+}
+
+.post_table td, .post_table th {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.post_table tr:hover {background-color: #ddd;}
+
+.post_table th {
   padding-top: 20px;
   padding-bottom: 12px;
   text-align: left;

@@ -20,6 +20,8 @@ class HerbsController < ApplicationController
 
   # GET /herbs/1/edit
   def edit
+    @herb = Herb.find_by(params[:id])
+    # response = HTTParty.get("http://api.com/ #{@herb.title}")
   end
 
   # POST /herbs
