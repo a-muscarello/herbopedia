@@ -34,17 +34,20 @@ https://mentor-matching-app.herokuapp.com/
 email : test@email.com
 password : test1234
 
-Main login / signup page
+Main page
 
-![screen shot 2018-05-24 at 10 50 11 pm](https://user-images.githubusercontent.com/29616111/40547634-75e8aa02-6000-11e8-883b-64e952b41d26.png)
+### Homepage
+
+![screen shot 2018-06-06 at 3 26 31 pm](https://user-images.githubusercontent.com/29616111/41062069-a02ebbde-69a2-11e8-9066-25793d4e225c.png)
 
 
 ## **Features:**
 
-- Will have landing page, about, get involved (perhaps a  ‘green’ volunteer event), user profile page,  our blog (users can  
+- Will have landing page, events, get involved (perhaps a  ‘green’ volunteer event), user profile page,  our blog (users can  
   provide related blogs).
-- Landing page will have sign up feature.
+- Landing page will have sign up / login feature.
 - Users signup for an account to gain access to services.
+
 
 ![screen shot 2018-05-24 at 10 53 07 pm](https://user-images.githubusercontent.com/29616111/40548053-9be0836e-6001-11e8-954b-9df900b6d4e0.png)
 
