@@ -1,3 +1,23 @@
 // Place all the styles related to the posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.post_table {
+    border-collapse: collapse;
+    width: 70%;
+  }
+
+  .post_table td, .post_table th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.post_table tr:hover {background-color: #ddd;}
+
+.post_table th {
+    padding-top: 20px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(184, 223, 185);
+    color: black;
+}
