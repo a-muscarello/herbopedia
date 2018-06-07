@@ -49,13 +49,12 @@ Main page
 - Users signup for an account to gain access to services.
 
 
-![screen shot 2018-05-24 at 10 53 07 pm](https://user-images.githubusercontent.com/29616111/40548053-9be0836e-6001-11e8-954b-9df900b6d4e0.png)
+![screen shot 2018-06-06 at 3 27 20 pm](https://user-images.githubusercontent.com/29616111/41071095-454ff77e-69c4-11e8-97fb-e2388c8af843.png)
 
+
+- Logged in users will be able to view listed herbs, create new items, post message and post events. 
 
 ![chat_btw_mike_and_elton](https://user-images.githubusercontent.com/29616111/40560192-41db8028-6027-11e8-8f1e-2a7541f40ee7.png)
-
-
-- Logged in users will be able to view listed herbs, create new items, post message and post events.  
 
 
 ## **Acknowledgements:**
