@@ -54,7 +54,7 @@ Main page
 
 - Logged in users will be able to view listed herbs, create new items, post message and post events. 
 
-![chat_btw_mike_and_elton](https://user-images.githubusercontent.com/29616111/40560192-41db8028-6027-11e8-8f1e-2a7541f40ee7.png)
+![screen shot 2018-06-06 at 3 27 43 pm](https://user-images.githubusercontent.com/29616111/41071200-9cdb0696-69c4-11e8-9a11-15bc488a0b9c.png)
 
 
 ## **Acknowledgements:**
