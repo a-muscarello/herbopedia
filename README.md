@@ -29,7 +29,6 @@ Create a self-directed learning plan for yourself to hold yourself accountable a
 - SCSS
 - Carrierwave
 
-https://mentor-matching-app.herokuapp.com/ 
 
 email : test@email.com
 password : test1234
