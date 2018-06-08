@@ -30,9 +30,6 @@ Create a self-directed learning plan for yourself to hold yourself accountable a
 - Carrierwave
 
 
-email : test@email.com
-password : test1234
-
 Main page
 
 ### Homepage
