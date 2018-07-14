@@ -3,7 +3,7 @@
 # **HerbOpedia**
 Created using Ruby 2.5.1
 
-Final Project for the NYC Tech Talent Pipeline's Web Development Fellowship Program (June 2018). 
+Project for the NYC Tech Talent Pipeline's Web Development Fellowship Program (June 2018). 
 
 Organize and create a unique MVP web product that is fully operational and uses a piece of technology you have not been taught in the classroom. This can be anything from a gem, a javascript library or a frontend framework. 
 
